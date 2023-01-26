@@ -12,8 +12,8 @@ class Solution {
             } else {
                 answer[i] = my_str.substring(index, index+n);
             }
+        index+=n;
         }
-    index+=n;
     return answer;
     }
 }
